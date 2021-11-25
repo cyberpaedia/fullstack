@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+.bg{
+    background-image: url(bg2.jpg);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    width: 90%;
+    height: 85vh;
+    position:absolute;
+    background-color:white;
+    margin: 50px 50px;
+    border-radius: 25px;
+    align-items: center;
+
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 20px 20px;
+
+}
+
+.logo{
+    cursor: pointer;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 15px;
+    font-weight:bold;
+    padding-left: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+h2 span{
+    color: royalblue;
+    font-family: Arial;
+    font-weight: bolder;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu ul li{
+    list-style: none;
+    margin: 20px;
+    display: inline-block;
+    cursor: pointer;
+    border-right: 20px;
+}
+.menu ul li:hover{
+    color:red;
+   
+}
+.button{
+    border-radius: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(57, 1, 109); 
+    border: none;
+    font-weight: bolder;
+}
+
+.button:hover{
+    color:purple;
+    background-color:white;
+
+}
+.middle{
+    display: flex;
+    margin-top: 60px;
+    padding: 20px 20px;
+    justify-content: space-between;
+    
+}
+
+.text{
+    flex: 40%;
+    }
+
+.image{
+    flex: 60%;    
+ }
+    
+    
+.image img{
+    width: 80%;
+    margin-right: 0px;
+}    
+.text{
+    width: 30%;
+   justify-items: center;
+   height:80%;
+   justify-content: space-between;
+   margin-right: 0px;
+}
+.text h1{
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: left;
+    padding: 20px;
+}
+.text p{
+    font-size: 15px;
+    text-align: left;
+    padding: 10px;
+    
+}
+
+button{
+    border-radius: 50px;
+    padding: 10px 30px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(29, 1, 55); 
+    border: none;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+
+button:hover{
+    color:purple;
+    background-color:white;
+
+}
+
+
